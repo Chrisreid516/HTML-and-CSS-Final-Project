@@ -1,0 +1,133 @@
+body {
+	font-family:helvetica, sans-serif;
+	font-size: 18px; 
+	line-height: 24px;
+	margin:0;
+	padding:0;
+	border:0;
+	background-color:black;
+}
+p {
+	font-family:helvetica, sans-serif;
+	color: white;
+	float: left;
+	overflow: auto;
+	width: 75%;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+h1 {
+  font: 400 3.5em/125% Helvetica, Sans-serif;
+  color: white;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+  text-align:center;
+  z-index:2;
+}
+nav {
+	margin:50px auto; 
+	text-align: center;
+}
+
+nav ul {
+    background: linear-gradient(0deg, white, red, white); 
+	box-shadow: 6px 6px 6px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	color:white;
+	font-weight:900;
+	width:100%;
+	display:inline-table;
+}
+nav ul li {
+	display:inline-table;
+}
+nav ul li a {
+	display: block; 
+	padding: 25px 40px;
+	color: white; 
+	text-decoration: none;
+}
+nav ul li:hover {
+    background: linear-gradient(180deg, white, red, red); 
+}
+nav ul li:hover a {
+	color:#757575;
+}
+nav ul li:hover > ul {
+	display:flex;
+	flex-direction:column;
+	width:30%;
+	color: white;
+}
+	
+nav ul ul {
+	display: none;
+    background: linear-gradient(180deg, white,  red); 
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute; 
+	z-index:10;
+	color: white;
+}
+nav ul ul li {
+	display:block; 
+	border-top: 1px solid #757575;
+	border-bottom: 1px solid #757575; 
+	position: relative;
+	color: white;
+}
+nav ul ul li a {
+	padding: 15px 40px;
+	color: white;
+}	
+nav ul ul li a:hover {
+	background: red;
+	color:white;
+}
+footer{
+    margin-top:200px;
+}
+.icon-bar {
+    width: 100%; /* Full-width */
+    background: red;
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+iframe{
+    width:300px; 
+    height:300px;
+    float: left;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#musicmonday{
+
+}
+#songs{
+
+}
+#other{
+
+}
+#bandcamp{
+
+}
+#youtube{
+
+}
